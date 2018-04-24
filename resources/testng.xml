@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LCBO Maven Test Suite" parallel="false">
+  <test name="Regression Suite">
+    <classes>
+			<class name="aemTest.ArticleFeature"/>
+			<class name="aemTest.Carousel"/>
+			<class name="aemTest.EnhancedContent"/>
+			<class name="aemTest.EnhancedProductHero"/>
+			<class name="aemTest.HeroArticleText"/>
+			<class name="aemTest.HeroImage"/>
+			<class name="aemTest.Image"/>
+			<class name="aemTest.SectionHeader"/>
+			<class name="aemTest.SubTitleQuote"/>
+			<class name="aemTest.VideoContainer"/>
+		</classes>
+  </test>
+</suite>
