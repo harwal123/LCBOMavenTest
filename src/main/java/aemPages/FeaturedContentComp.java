@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 public class FeaturedContentComp {
 WebDriver driver;
 	
-	@FindBy(name = "./sectionTitle")
+	@FindBy(xpath = "//*[@class='coral-FixedColumn-column u-coral-padding u-coral-noMargin']/div[1]/div/div[2]")
 	WebElement SectionTitle;
 	
 	@FindBy(xpath = ".//*[@class='cq-dialog-actions u-coral-pullRight']/button[4]")
@@ -19,10 +19,10 @@ WebDriver driver;
 	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/button")
 	WebElement AddButton;
 	
-	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[1]/coral-multifield-item-content/div/div[1]/input")
+	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[1]/coral-multifield-item-content/div/div[1]/div/div[2]")
 	WebElement AccordianTitle1;
 	
-	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[1]/coral-multifield-item-content/div/div[2]/textarea")
+	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[1]/coral-multifield-item-content/div/div[2]/div/div[2]")
 	WebElement Description1;
 	
 	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[1]/coral-multifield-item-content/div/div[3]/input")
@@ -31,10 +31,10 @@ WebDriver driver;
 	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[1]/coral-multifield-item-content/div/div[4]/foundation-autocomplete/div/div/input")
 	WebElement LinkURL1;
 	
-	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[2]/coral-multifield-item-content/div/div[1]/input")
+	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[2]/coral-multifield-item-content/div/div[1]/div/div[2]")
 	WebElement AccordianTitle2;
 	
-	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[2]/coral-multifield-item-content/div/div[2]/textarea")
+	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[2]/coral-multifield-item-content/div/div[2]/div/div[2]")
 	WebElement Description2;
 	
 	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[2]/coral-multifield-item-content/div/div[3]/input")
@@ -43,10 +43,10 @@ WebDriver driver;
 	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[2]/coral-multifield-item-content/div/div[4]/foundation-autocomplete/div/div/input")
 	WebElement LinkURL2;
 	
-	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[3]/coral-multifield-item-content/div/div[1]/input")
+	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[3]/coral-multifield-item-content/div/div[1]/div/div[2]")
 	WebElement AccordianTitle3;
 	
-	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[3]/coral-multifield-item-content/div/div[2]/textarea")
+	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[3]/coral-multifield-item-content/div/div[2]/div/div[2]")
 	WebElement Description3;
 	
 	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[3]/coral-multifield-item-content/div/div[3]/input")
@@ -55,10 +55,10 @@ WebDriver driver;
 	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[3]/coral-multifield-item-content/div/div[4]/foundation-autocomplete/div/div/input")
 	WebElement LinkURL3;
 	
-	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[4]/coral-multifield-item-content/div/div[1]/input")
+	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[4]/coral-multifield-item-content/div/div[1]/div/div[2]")
 	WebElement AccordianTitle4;
 	
-	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[4]/coral-multifield-item-content/div/div[2]/textarea")
+	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[4]/coral-multifield-item-content/div/div[2]/div/div[2]")
 	WebElement Description4;
 	
 	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[4]/coral-multifield-item-content/div/div[3]/input")
@@ -67,10 +67,10 @@ WebDriver driver;
 	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[4]/coral-multifield-item-content/div/div[4]/foundation-autocomplete/div/div/input")
 	WebElement LinkURL4;
 	
-	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[5]/coral-multifield-item-content/div/div[1]/input")
+	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[5]/coral-multifield-item-content/div/div[1]/div/div[2]")
 	WebElement AccordianTitle5;
 	
-	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[5]/coral-multifield-item-content/div/div[2]/textarea")
+	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[5]/coral-multifield-item-content/div/div[2]/div/div[2]")
 	WebElement Description5;
 	
 	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[5]/coral-multifield-item-content/div/div[3]/input")
@@ -79,10 +79,10 @@ WebDriver driver;
 	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[5]/coral-multifield-item-content/div/div[4]/foundation-autocomplete/div/div/input")
 	WebElement LinkURL5;
 	
-	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[6]/coral-multifield-item-content/div/div[1]/input")
+	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[6]/coral-multifield-item-content/div/div[1]/div/div[2]")
 	WebElement AccordianTitle6;
 	
-	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[6]/coral-multifield-item-content/div/div[2]/textarea")
+	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[6]/coral-multifield-item-content/div/div[2]/div/div[2]")
 	WebElement Description6;
 	
 	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[6]/coral-multifield-item-content/div/div[3]/input")
@@ -91,10 +91,10 @@ WebDriver driver;
 	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[6]/coral-multifield-item-content/div/div[4]/foundation-autocomplete/div/div/input")
 	WebElement LinkURL6;
 	
-	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[7]/coral-multifield-item-content/div/div[1]/input")
+	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[7]/coral-multifield-item-content/div/div[1]/div/div[2]")
 	WebElement AccordianTitle7;
 	
-	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[7]/coral-multifield-item-content/div/div[2]/textarea")
+	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[7]/coral-multifield-item-content/div/div[2]/div/div[2]")
 	WebElement Description7;
 	
 	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[7]/coral-multifield-item-content/div/div[3]/input")
@@ -103,10 +103,10 @@ WebDriver driver;
 	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[7]/coral-multifield-item-content/div/div[4]/foundation-autocomplete/div/div/input")
 	WebElement LinkURL7;
 	
-	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[8]/coral-multifield-item-content/div/div[1]/input")
+	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[8]/coral-multifield-item-content/div/div[1]/div/div[2]")
 	WebElement AccordianTitle8;
 	
-	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[8]/coral-multifield-item-content/div/div[2]/textarea")
+	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[8]/coral-multifield-item-content/div/div[2]/div/div[2]")
 	WebElement Description8;
 	
 	@FindBy(xpath = ".//*[@class='coral-Form-field coral-Multifield']/coral-multifield-item[8]/coral-multifield-item-content/div/div[3]/input")

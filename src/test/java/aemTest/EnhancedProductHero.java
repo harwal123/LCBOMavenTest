@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import aemPages.EnhancedProductHeroComp;
 import aemPages.Template;
 import helper.Browser;
+import helper.DragAndDropComponent;
 import helper.Publish;
 
 public class EnhancedProductHero {
@@ -30,8 +31,8 @@ WebDriver driver;
 		EnhancedProductHeroComp Comp = PageFactory.initElements(driver, EnhancedProductHeroComp.class);
 		Comp.OpenImageProperties();
 		Thread.sleep(3000);
-		//DragAndDropComponent comp = PageFactory.initElements(driver, DragAndDropComponent.class);
-		//comp.DragAndDrop("Enhanced Product");
+		DragAndDropComponent comp = PageFactory.initElements(driver, DragAndDropComponent.class);
+		comp.DragAndDrop("Enhanced Product");
 		Comp.EnhancedProductHeroCompConfig("Enhanced Product Hero", "Subtitle - Celebrate your next festive occasion with some of these great "
 				+ "products from the newest issue of Food & Drink. All are available to buy online, making entertaining even easier. ", 
 				"Celebrate your next festive occasion with some of these great products from the newest issue of Food & Drink. All are "

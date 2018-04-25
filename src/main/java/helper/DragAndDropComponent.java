@@ -80,29 +80,44 @@ public class DragAndDropComponent {
 	@FindBy(xpath = ".//*[@id='EditableToolbar']/button[1]")
 	WebElement ConfigButton;
 	
-	@FindBy(xpath = ".//*[@id='OverlayWrapper']/div[4]/div[1]")
+	@FindBy(xpath = ".//*[@id='OverlayWrapper']/div[4]/div[2]")
 	WebElement DragComponent2;
 	
 	@FindBy(xpath = ".//*[@id='OverlayWrapper']/div[4]/div[3]")
 	WebElement ConfigComponent2;
 	
-	@FindBy(xpath = ".//*[@id='OverlayWrapper']/div[4]/div[1]")
+	@FindBy(xpath = ".//*[@id='OverlayWrapper']/div[4]/div[3]")
 	WebElement DragComponent3;
 	
 	@FindBy(xpath = ".//*[@id='OverlayWrapper']/div[4]/div[4]")
 	WebElement ConfigComponent3;
 	
+	@FindBy(xpath = ".//*[@id='OverlayWrapper']/div[4]/div[4]")
+	WebElement DragComponent4;
+	
 	@FindBy(xpath = ".//*[@id='OverlayWrapper']/div[4]/div[5]")
 	WebElement ConfigComponent4;
+	
+	@FindBy(xpath = ".//*[@id='OverlayWrapper']/div[4]/div[5]")
+	WebElement DragComponent5;
 	
 	@FindBy(xpath = ".//*[@id='OverlayWrapper']/div[4]/div[6]")
 	WebElement ConfigComponent5;
 	
+	@FindBy(xpath = ".//*[@id='OverlayWrapper']/div[4]/div[6]")
+	WebElement DragComponent6;
+	
 	@FindBy(xpath = ".//*[@id='OverlayWrapper']/div[4]/div[7]")
 	WebElement ConfigComponent6;
 	
+	@FindBy(xpath = ".//*[@id='OverlayWrapper']/div[4]/div[7]")
+	WebElement DragComponent7;
+	
 	@FindBy(xpath = ".//*[@id='OverlayWrapper']/div[4]/div[8]")
 	WebElement ConfigComponent7;
+	
+	@FindBy(xpath = ".//*[@id='OverlayWrapper']/div[4]/div[8]")
+	WebElement DragComponent8;
 	
 	@FindBy(xpath = ".//*[@id='OverlayWrapper']/div[4]/div[9]")
 	WebElement ConfigComponent8;
@@ -182,7 +197,7 @@ public class DragAndDropComponent {
 		String PWin = driver.getWindowHandle();
 		driver.switchTo().window(PWin);
 		Thread.sleep(4000);
-		DragComponent3.click();
+		DragComponent4.click();
 		AddComponent.click();
 		PWindow = driver.getWindowHandle();
 		for (String CWindow : driver.getWindowHandles()) {
@@ -205,7 +220,7 @@ public class DragAndDropComponent {
 		String PWin = driver.getWindowHandle();
 		driver.switchTo().window(PWin);
 		Thread.sleep(4000);
-		DragComponent3.click();
+		DragComponent5.click();
 		AddComponent.click();
 		PWindow = driver.getWindowHandle();
 		for (String CWindow : driver.getWindowHandles()) {
@@ -228,7 +243,7 @@ public class DragAndDropComponent {
 		String PWin = driver.getWindowHandle();
 		driver.switchTo().window(PWin);
 		Thread.sleep(4000);
-		DragComponent3.click();
+		DragComponent6.click();
 		AddComponent.click();
 		PWindow = driver.getWindowHandle();
 		for (String CWindow : driver.getWindowHandles()) {
@@ -251,7 +266,7 @@ public class DragAndDropComponent {
 		String PWin = driver.getWindowHandle();
 		driver.switchTo().window(PWin);
 		Thread.sleep(4000);
-		DragComponent3.click();
+		DragComponent7.click();
 		AddComponent.click();
 		PWindow = driver.getWindowHandle();
 		for (String CWindow : driver.getWindowHandles()) {
@@ -274,7 +289,7 @@ public class DragAndDropComponent {
 		String PWin = driver.getWindowHandle();
 		driver.switchTo().window(PWin);
 		Thread.sleep(4000);
-		DragComponent3.click();
+		DragComponent8.click();
 		AddComponent.click();
 		PWindow = driver.getWindowHandle();
 		for (String CWindow : driver.getWindowHandles()) {
@@ -307,6 +322,29 @@ public class DragAndDropComponent {
 		//System.out.println(driver.getCurrentUrl());
 		Thread.sleep(4000);
 		ConfigComponent.click();
+		ConfigButton.click();
+		for (String ChildWindow : driver.getWindowHandles()) {
+			driver.switchTo().window(ChildWindow);
+		}
+	}
+	
+	public void DragAndDropFeature2(String EnterComponentName) throws InterruptedException{
+		String PWin = driver.getWindowHandle();
+		driver.switchTo().window(PWin);
+		Thread.sleep(4000);
+		DragComponent.click();
+		AddComponent.click();
+		PWindow = driver.getWindowHandle();
+		for (String CWindow : driver.getWindowHandles()) {
+			driver.switchTo().window(CWindow);
+		}
+		InsertComponent.sendKeys(EnterComponentName);
+		Thread.sleep(1000);
+		SelectComponent.click();
+		driver.switchTo().window(PWindow);
+		//System.out.println(driver.getCurrentUrl());
+		Thread.sleep(4000);
+		ConfigComponent2.click();
 		ConfigButton.click();
 		for (String ChildWindow : driver.getWindowHandles()) {
 			driver.switchTo().window(ChildWindow);

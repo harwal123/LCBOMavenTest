@@ -29,6 +29,7 @@ WebDriver driver;
 	@Test(priority = 1)
 	public void ImageConfiguration() throws InterruptedException{
 		ImageComp comp = PageFactory.initElements(driver, ImageComp.class);
+		Thread.sleep(3000);
 		comp.OpenImageProperties();
 		Thread.sleep(3000);
 		DragAndDropComponent Comp = PageFactory.initElements(driver, DragAndDropComponent.class);

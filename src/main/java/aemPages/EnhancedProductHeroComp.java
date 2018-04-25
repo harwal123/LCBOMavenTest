@@ -5,21 +5,18 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-
-import helper.DragAndDropComponent;
 
 public class EnhancedProductHeroComp {
 	
 	WebDriver driver;
 	
-	@FindBy(xpath = ".//*[@id='coral-8']/div/div[1]/div/div[2]")
+	@FindBy(xpath = ".//*[@id='coral-8']/div/div[1]/div/div[2]/p")
 	WebElement Header;
 	
-	@FindBy(xpath = ".//*[@id='coral-8']/div/div[2]/div/div[2]")
+	@FindBy(xpath = ".//*[@id='coral-8']/div/div[2]/div/div[2]/p")
 	WebElement SubHeading;
 	
-	@FindBy(xpath = ".//*[@id='coral-8']/div/div[3]/div/div[2]")
+	@FindBy(xpath = ".//*[@id='coral-8']/div/div[3]/div/div[2]/p")
 	WebElement Description;
 	
 	@FindBy(xpath = ".//*[@id='coral-8']/div/div[4]/input")
@@ -60,8 +57,8 @@ public class EnhancedProductHeroComp {
 	
 	public void EnhancedProductHeroCompConfig(String HeaderText, String SubHeaderText, String DescripText, String ImageTitleText, 
 			String ImageAltTxt, String LinkTxt, String LinkURLtxt) throws InterruptedException{
-		DragAndDropComponent Comp = PageFactory.initElements(driver, DragAndDropComponent.class);
-		Comp.DragAndDrop("Enhanced Product Hero");
+		//DragAndDropComponent Comp = PageFactory.initElements(driver, DragAndDropComponent.class);
+		//Comp.DragAndDrop("Enhanced Product Hero");
 		Header.sendKeys(HeaderText);
 		SubHeading.sendKeys(SubHeaderText);
 		Description.sendKeys(DescripText);
