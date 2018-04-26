@@ -12,7 +12,7 @@ import helper.Browser;
 import helper.DragAndDropComponent;
 import helper.Publish;
 
-public class Image {
+public class ImageTest {
 WebDriver driver;
 	
 	@BeforeClass

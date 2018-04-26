@@ -10,7 +10,7 @@ import aemPages.Template;
 import helper.Browser;
 import helper.Publish;
 
-public class FooterComp {
+public class FooterCompTest {
 	WebDriver driver;
 
 	@BeforeClass

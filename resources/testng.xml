@@ -2,16 +2,16 @@
 <suite name="LCBO Maven Test Suite" parallel="false">
   <test name="Regression Suite">
     <classes>
-			<class name="aemTest.ArticleFeature"/>
-			<class name="aemTest.Carousel"/>
-			<class name="aemTest.EnhancedContent"/>
-			<class name="aemTest.EnhancedProductHero"/>
-			<class name="aemTest.HeroArticleText"/>
-			<class name="aemTest.HeroImage"/>
-			<class name="aemTest.Image"/>
-			<class name="aemTest.SectionHeader"/>
-			<class name="aemTest.SubTitleQuote"/>
-			<class name="aemTest.VideoContainer"/>
+			<class name="aemTest.ArticleFeatureTest"/>
+			<class name="aemTest.CarouselTest"/>
+			<class name="aemTest.EnhancedContentTest"/>
+			<class name="aemTest.EnhancedProductHeroTest"/>
+			<class name="aemTest.HeroArticleTextTest"/>
+			<class name="aemTest.HeroImageTest"/>
+			<class name="aemTest.ImageTest"/>
+			<class name="aemTest.SectionHeaderTest"/>
+			<class name="aemTest.SubTitleQuoteTest"/>
+			<class name="aemTest.VideoContainerTest"/>
 		</classes>
   </test>
 </suite>

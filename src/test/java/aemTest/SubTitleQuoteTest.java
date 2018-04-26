@@ -14,7 +14,7 @@ import helper.Publish;
 
 //commit *//
 
-public class SubTitleQuote {
+public class SubTitleQuoteTest {
 	WebDriver driver;
 	
 	@BeforeClass

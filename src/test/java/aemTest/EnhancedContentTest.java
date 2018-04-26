@@ -12,7 +12,7 @@ import helper.Browser;
 import helper.DragAndDropComponent;
 import helper.Publish;
 
-public class EnhancedContent{
+public class EnhancedContentTest{
 WebDriver driver;
 	
 	@BeforeClass

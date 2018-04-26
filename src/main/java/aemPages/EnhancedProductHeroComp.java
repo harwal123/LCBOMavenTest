@@ -10,13 +10,13 @@ public class EnhancedProductHeroComp {
 	
 	WebDriver driver;
 	
-	@FindBy(xpath = ".//*[@id='coral-8']/div/div[1]/div/div[2]/p")
+	@FindBy(xpath = ".//*[@id='coral-8']/div/div[1]/div/div[2]")
 	WebElement Header;
 	
-	@FindBy(xpath = ".//*[@id='coral-8']/div/div[2]/div/div[2]/p")
+	@FindBy(xpath = ".//*[@id='coral-8']/div/div[2]/div/div[2]")
 	WebElement SubHeading;
 	
-	@FindBy(xpath = ".//*[@id='coral-8']/div/div[3]/div/div[2]/p")
+	@FindBy(xpath = ".//*[@id='coral-8']/div/div[3]/div/div[2]")
 	WebElement Description;
 	
 	@FindBy(xpath = ".//*[@id='coral-8']/div/div[4]/input")
@@ -25,7 +25,7 @@ public class EnhancedProductHeroComp {
 	@FindBy(xpath = ".//*[@id='coral-8']/div/div[5]/input")
 	WebElement ImageAltText;
 	
-	@FindBy(xpath = ".//*[@id='coral-8']/div/div[6]/input")
+	@FindBy(xpath = ".//*[@id='coral-8']/div/div[7]/input")
 	WebElement LinkText;
 	
 	@FindBy(xpath = ".//*[@id='coral-11']")

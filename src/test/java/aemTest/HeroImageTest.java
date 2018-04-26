@@ -11,7 +11,7 @@ import aemPages.Template;
 import helper.Browser;
 import helper.Publish;
 
-public class HeroImage {
+public class HeroImageTest {
 WebDriver driver;
 	
 	@BeforeClass

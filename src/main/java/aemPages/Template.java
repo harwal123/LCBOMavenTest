@@ -85,7 +85,7 @@ public class Template {
 			driver.switchTo().window(Winhandle);
 			//System.out.println(driver.getCurrentUrl());
 		}
-		Thread.sleep(4000);
+		Thread.sleep(10000);
 	}
 
 }

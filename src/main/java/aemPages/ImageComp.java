@@ -52,7 +52,7 @@ WebDriver driver;
 		ImageTitle.sendKeys("Image Title");
 		ImageAltTxt.sendKeys("Image Alt Text");
 		Description.sendKeys("Whether you're hosting a big crowd or just having a few friends over to watch the game, have something "
-				+ "special on hand to offer guests as they arrive. Try these easy-to-put-together pitcher cocktails — simply chill, "
+				+ "special on hand to offer guests as they arrive. Try these easy-to-put-together pitcher cocktails simply chill, "
 				+ "pour and serve. Go beyond the tradition of just cracking beers without having to flex your bartending skills.");
 		LinkURL.sendKeys("http://google.com");
 	}

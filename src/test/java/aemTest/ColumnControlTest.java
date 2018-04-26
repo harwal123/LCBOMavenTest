@@ -9,7 +9,7 @@ import aemPages.ColumnControlComp;
 import aemPages.Template;
 import helper.Browser;
 
-public class ColumnControl {
+public class ColumnControlTest {
 	
 	WebDriver driver;
 	
